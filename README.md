@@ -1,90 +1,90 @@
 <div align="center">
 
-# 📚 Library Management System
+# 📚 Java Project - Library System
 
-### Sistema de gerenciamento de empréstimos desenvolvido em Java
-
-<br>
+Aplicação de console desenvolvida em Java para gerenciamento de empréstimos de livros.
 
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![OOP](https://img.shields.io/badge/Paradigm-OOP-2ecc71?style=for-the-badge)
-![Collections](https://img.shields.io/badge/Java_Collections-3498db?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-9b59b6?style=for-the-badge)
+![Application](https://img.shields.io/badge/Type-Console_App-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🎯 Sobre o Projeto
+## 📌 Sobre o Projeto
 
-Aplicação console para gerenciamento de empréstimos de livros.  
-O sistema controla disponibilidade, fila de espera e fluxo de devolução automática.
+Sistema simples de biblioteca desenvolvido para praticar:
 
-Projeto desenvolvido com foco em:
+- Programação Orientada a Objetos (POO)
+- Estruturas de Dados (List, Map, Queue)
+- Controle de fluxo
+- Manipulação de entrada via console
 
-- Modelagem de domínio
-- Controle de estado
-- Estruturas de dados
-- Boas práticas em OOP
+O sistema permite cadastrar livros, realizar empréstimos, gerenciar fila de espera e processar devoluções automaticamente.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 📖 Cadastro de livros  
-- 📚 Listagem de livros disponíveis  
-- 🔄 Empréstimo com validação de disponibilidade  
-- ⏳ Fila de espera automática (Queue)  
-- ✅ Devolução com empréstimo automático ao próximo usuário  
+- 📖 Cadastro de livros
+- 📚 Listagem de livros disponíveis
+- 🔄 Empréstimo com verificação de disponibilidade
+- ⏳ Fila de espera automática para livros indisponíveis
+- ✅ Devolução com empréstimo automático ao próximo da fila
 
 ---
 
-## 🛠️ Stack Utilizada
+## 🛠️ Tecnologias Utilizadas
 
-| Tecnologia | Aplicação |
-|------------|------------|
-| Java | Linguagem principal |
-| OOP | Estrutura e organização |
-| ArrayList | Armazenamento de livros |
-| HashMap | Controle de filas |
-| Queue (LinkedList) | Fila de espera |
-| Scanner | Entrada de dados |
+- Java
+- ArrayList
+- HashMap
+- Queue (LinkedList)
+- Scanner
 
 ---
 
-## 📂 Estrutura
+## 📂 Estrutura Completa do Projeto
 
 ```
-teste/
- ├── Main.java
- └── livro.java
-```
-
----
-
-## ⚙️ Execução
-
-```
-javac teste/*.java
-java teste.Main
+java-project-library/
+│
+├── src/
+│   ├── Main.java
+│   └── livro.java
+│
+└── README.md
 ```
 
 ---
 
-## 📌 Evoluções Futuras
+## ⚙️ Como Executar
 
-- Persistência com banco de dados
-- Interface gráfica (JavaFX)
-- API REST (Spring Boot)
-- Sistema de autenticação
+### 1️⃣ Compilar
+
+```bash
+javac src/*.java
+```
+
+### 2️⃣ Executar
+
+```bash
+java -cp src Main
+```
 
 ---
 
-<div align="center">
+## 🧠 Conceitos Aplicados
 
-## 👨‍💻 Desenvolvido por
+- Encapsulamento
+- Controle de estado (disponível/emprestado)
+- Estruturas de dados dinâmicas
+- Organização básica de projeto Java
 
-### Pedro Henrique 
-Desenvolvedor focado em organização, escalabilidade e evolução contínua 🚀
+---
 
-</div>
+## 👨‍💻 Autor
+
+**Ph / Drope**  
+Desenvolvedor focado em evolução contínua 🚀
