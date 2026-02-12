@@ -84,8 +84,7 @@ java teste.Main
 
 ## 👨‍💻 Desenvolvido por
 
-### Ph / Drope
-
+### Pedro Henrique 
 Desenvolvedor focado em organização, escalabilidade e evolução contínua 🚀
 
 </div>
